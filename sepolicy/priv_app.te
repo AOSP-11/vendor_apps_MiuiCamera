@@ -1,0 +1,2 @@
+allow priv_app mnt_vendor_file:dir search;
+allow priv_app sensors_panel_prop:file r_file_perms;

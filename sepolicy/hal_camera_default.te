@@ -1,0 +1,6 @@
+allow hal_camera_default bg_boot_complete_prop:file { getattr open };
+allow hal_camera_default bg_daemon_prop:file { getattr open };
+allow hal_camera_default bluetooth_prop:file { getattr open };
+allow hal_camera_default bootloader_boot_reason_prop:file { getattr open };
+allow hal_camera_default default_prop:property_service set;
+allow hal_camera_default vendor_system_prop:file rw_file_perms;
