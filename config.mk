@@ -19,7 +19,9 @@ VENDOR_PATH := vendor/apps/MiuiCamera
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc,system/etc) \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib,system/lib) \
-    $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib64,system/lib64)
+    $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib64,system/lib64) \
+    $(call find-copy-subdir-files,*,$(VENDOR_PATH)/vendor/etc,$(TARGET_COPY_OUT_VENDOR)/etc) \
+    $(call find-copy-subdir-files,*,$(VENDOR_PATH)/vendor/lib,$(TARGET_COPY_OUT_VENDOR)/lib)
 
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 

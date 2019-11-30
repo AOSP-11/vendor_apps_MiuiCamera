@@ -143,4 +143,9 @@
     <bool name="support_front_bokeh">true</bool>
     <!--whether camera support portrait mode switch -->
     <bool name="camera_is_support_portrait_switch">true</bool>
+
+    <!--Libs Alexey 60fps -->
+    <bool name="support_camera_hfr_bitrate_scale">true</bool>
+    <integer name="support_camera_hfr_max_quality">3</integer>
+    <bool name="support_camera_video_high_frame">true</bool>
 </features>
