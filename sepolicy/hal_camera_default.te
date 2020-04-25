@@ -1,3 +1,2 @@
 allow hal_camera_default bg_boot_complete_prop:file { getattr open };
 allow hal_camera_default bg_daemon_prop:file { getattr open };
-allow hal_camera_default bluetooth_prop:file { getattr open };
