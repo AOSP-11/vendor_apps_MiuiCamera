@@ -21,7 +21,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib,system/lib) \
     $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib64,system/lib64)
 
-BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # MiuiCamera
 PRODUCT_PACKAGES += \
